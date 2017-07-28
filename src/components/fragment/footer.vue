@@ -1,9 +1,7 @@
 <template>
   <div class="crow">
     <div class="citem" v-for="item in map">
-      <div>
-        <text>{{item.text}}</text>
-      </div>
+      <text>{{item.text}}</text>
     </div>
   </div>
 </template>
