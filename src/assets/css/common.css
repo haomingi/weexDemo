@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+html{
+    font-size:12px;  //默认16px
+    /* 禁用iPhone中Safari的字号自动调整 */
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-user-select:none;
+}
+
+/* 去除iPhone中默认的input样式 */
+input[type="submit"], input[type="reset"], input[type="button"]{
+    -webkit-appearance: none;
+    resize: none;
+}
+
+body {
+    line-height: 1.6;
+    /*font-family: $sansFont;*/
+    /*background: $grey-f0;*/
+    /*color: $grey-light;*/
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a, a:link {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    /*color: $grey-light;*/
+}
+
+a, button, input, textarea {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img {
+    border: 0;
+    vertical-align:middle;
+}
+
+li {
+    list-style-type: none;
+}
+
+em, i {
+    font-style: normal;
+}
