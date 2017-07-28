@@ -2,9 +2,9 @@ var express = require('express')
 var webpack = require('webpack')
 var proxyMiddleware = require('http-proxy-middleware')
 var webpackConfig = require('./webpack.dev.conf')
-var config = require('./config')
+//var config = require('./config')
 //代理地址
-var proxyTable = config.dev.proxyTable
+//var proxyTable = config.dev.proxyTable
 
 // 创建一个express实例
 var app = express()
@@ -33,13 +33,13 @@ compiler.plugin('compilation', function (compilation) {
 })
 
 // proxy api requests
-Object.keys(proxyTable).forEach(function (context) {
-  var options = proxyTable[context]
-  if (typeof options === 'string') {
-    options = { target: options }
-  }
-  app.use(proxyMiddleware(options.filter || context, options))
-})
+//Object.keys(proxyTable).forEach(function (context) {
+//  var options = proxyTable[context]
+//  if (typeof options === 'string') {
+//    options = { target: options }
+//  }
+//  app.use(proxyMiddleware(options.filter || context, options))
+//})
 // 注册中间件
 app.use(devMiddleware)
 app.use(hotMiddleware)
