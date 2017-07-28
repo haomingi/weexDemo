@@ -9,8 +9,8 @@ npm run start
 ```
 npm run build
 ```
-##weex-devtool
+##Weex-Devtool
 [weex-devtool-extension](https://github.com/weexteam/weex-devtool-extension)
 ```
-##调试Weex页面
+##API
 [weex](http://weex.apache.org/cn/guide/tools/toolkit.html#调试-Weex-页面)
