@@ -14,4 +14,4 @@ npm run build
 
 ## API
 [weex](http://weex.apache.org/cn/guide/tools/toolkit.html#调试-Weex-页面)
-安装完成后可运行，weex debug src/views/index.vue（运行weex debug的会失败）在手机上面查看效果，需要注意使用的标签，样式是否能够解析
+安装完成后可运行，weex debug src/views/index.vue（之前如果运行了weex debug要先关闭）在手机Weex Playground上面查看效果，需要注意使用的标签，样式是否能够解析
